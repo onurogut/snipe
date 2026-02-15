@@ -34,7 +34,7 @@ scoops:
   - repository:
       owner: onurogut
       name: scoop-bucket
-      token: "{{ .Env.HOMEBREW_TAP_TOKEN }}"
+      token: "{{ .Env.SCOOP_BUCKET_TOKEN }}"
     homepage: "https://github.com/onurogut/snipe"
     description: "Kill processes by port"
     license: "MIT"
