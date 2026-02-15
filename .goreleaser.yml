@@ -30,6 +30,15 @@ brews:
     install: |
       bin.install "snipe"
 
+scoops:
+  - repository:
+      owner: onurogut
+      name: scoop-bucket
+      token: "{{ .Env.HOMEBREW_TAP_TOKEN }}"
+    homepage: "https://github.com/onurogut/snipe"
+    description: "Kill processes by port"
+    license: "MIT"
+
 changelog:
   sort: asc
   filters:
