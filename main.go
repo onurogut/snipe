@@ -76,7 +76,7 @@ flags:
   -l    list processes without killing
   -i    ask before each kill
   -q    quiet, exit code only
-  -g    try SIGTERM first, SIGKILL after 2s
+  -g    try graceful shutdown first, force after 2s
   -v    version
 `, version)
 }
